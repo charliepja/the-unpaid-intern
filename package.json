@@ -1,0 +1,38 @@
+{
+  "name": "the-unpaid-intern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js | pino-pretty"
+  },
+  "keywords": [],
+  "author": "Klutzy Software",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/mongo": "^2.2.8",
+    "@napi-rs/canvas": "^0.1.52",
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "cross-env": "^7.0.3",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "glob": "^10.3.12",
+    "keyv": "^4.5.4",
+    "luxon": "^3.4.4",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.3.4",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.2.0",
+    "eslint-plugin-jsdoc": "^48.2.3",
+    "node": "^22.1.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
